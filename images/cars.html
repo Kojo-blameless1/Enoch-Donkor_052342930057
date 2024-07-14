@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .available-cars {
+        padding: 10px;
+        background: #000e11;
+    
+        }
+        .available-cars h1 {
+            font-size: 100px;
+            text-align: center;
+            font-weight: bold;
+            color: tan;
+        }
+
+        .cars {
+            display: inline-block;
+            padding: 10px;
+            max-width: 500px;
+            margin: 25px;
+            height: auto;
+            border: 3px solid transparent;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .cars:hover {
+            box-shadow: 0px 0px 1px 2px rgb(248, 248, 246);
+            transform: scaleX(1.2);
+            transition: .5s;
+        }
+
+        .cars img{
+            width: 400px;
+            height: 400px;
+            display: flex;
+            border-radius: 15px;
+            margin-left: 30px;
+        }
+        .car-details {
+            margin: 10px;
+            margin-left: 40px;
+        }
+        .car-details h3 {
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+        }
+        .car-details p {
+            font-size: 19px;
+            color: #d89910;
+        }
+        .car-details button{
+            width: 120px;
+            height: 40px;
+            outline: none;
+            border: 1px solid coral;
+            border-radius: 15px;
+            background: coral;
+            cursor: pointer;
+            font-size: 17px;
+            font-weight: bold;
+            color: white;
+        }
+        .car-details button:hover{
+            transform: scaleX(1.1);
+        }
+
+        .cars-container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-flow: wrap;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="head">
+        <a href="../index.html">Back</a>
+    </header>
+
+     <!--This section is for the available cars-->
+    <section class="available-cars" id="available-cars">
+        <h1>Available Cars</h1>
+        <div class="cars-container">
+            <div class="cars">
+                <div class="car-img">
+                    <img src="product1.jpg" alt="lambourgini">
+                </div>
+                <div class="car-details">
+                    <h3>Lamborghini urus</h3>
+                    <p>Price: <b style="color: green;">$</b> 275,000</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+    
+            <div class="cars">
+                <div class="car-img">
+                    <img src="GLA.webp" alt="GLA">
+                </div>
+                <div class="car-details">
+                    <h3>Mercedes-Benz GLA</h3>
+                    <p>Price: <b style="color: green;">$</b> 350,000</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+    
+            <div class="cars">
+                <div class="car-img">
+                    <img src="velar.webp" alt="Velar">
+                </div>
+                <div class="car-details">
+                    <h3>Land Rover Range Rover Velar</h3>
+                    <p>Price: <b style="color: green;">$</b> 250,000</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+    
+            <div class="cars">
+                <div class="car-img">
+                    <img src="e1.jpg" alt="Elantra">
+                </div>
+                <div class="car-details">
+                    <h3>2021 Hyundai Elantra</h3>
+                    <p>Price: <b style="color: green;">$</b> 199,000</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+    
+            <div class="cars">
+                <div class="car-img">
+                    <img src="honda.avif" alt="Honda">
+                </div>
+                <div class="car-details">
+                    <h3>Honda Civic 2024</h3>
+                    <p>Price: <b style="color: green;">$</b> 275,000</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+    
+            <div class="cars">
+                <div class="car-img">
+                    <img src="audi.jpg" alt="audi">
+                </div>
+                <div class="car-details">
+                    <h3>Audi R8</h3>
+                    <p>Price: <b style="color: green;">$</b> 275,000</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="cars">
+                <div class="car-img">
+                    <img src="BMW.jpg" alt="Velar">
+                </div>
+                <div class="car-details">
+                    <h3>BMW M3 CS G80</h3>
+                    <p>Price: <b style="color: green;">$</b> 150,000</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="cars">
+                <div class="car-img">
+                    <img src="ferrari.jpg" alt="Velar">
+                </div>
+                <div class="car-details">
+                    <h3>FERRARI</h3>
+                    <p>Price: <b style="color: green;">$</b> 200,000</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="cars">
+                <div class="car-img">
+                    <img src="FERRARI ENZO.jpg" alt="Velar">
+                </div>
+                <div class="car-details">
+                    <h3>FERRARI ENZO</h3>
+                    <p>Price: <b style="color: green;">$</b> 300,000</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="cars">
+                <div class="car-img">
+                    <img src="Toyota.jpg" alt="Velar">
+                </div>
+                <div class="car-details">
+                    <h3>Toyota Chr 2024</h3>
+                    <p>Price: <b style="color: green;">$</b> 390,000</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="cars">
+                <div class="car-img">
+                    <img src="buggato.avif" alt="Velar">
+                </div>
+                <div class="car-details">
+                    <h3>Buggati</h3>
+                    <p>Price: <b style="color: green;">$</b> 450,000</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="cars">
+                <div class="car-img">
+                    <img src="b2.jpg" alt="Velar">
+                </div>
+                <div class="car-details">
+                    <h3> Bugatti Chiron Sport</h3>
+                    <p>Price: <b style="color: green;">$</b>2,000,000</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            
+        </div>
+       
+    </section>
+
+</body>
+</html>

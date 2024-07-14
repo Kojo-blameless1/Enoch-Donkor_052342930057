@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+span {
+    color: gold;
+}
+.hero {
+    width: 100%;
+    height: 115vh;
+    background: url(/images/carback.jpeg) no-repeat;
+    background-size: 100%;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.logo h1 {
+    color: white;
+}
+.blur {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  5px;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+
+
+.input {
+    width: 300px;
+    max-width: 100%;
+    position: relative;
+}
+.input input{
+    display: inline-block;
+    padding: 14px 130px 14px 15px;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid orange;
+    outline: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.input p {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 8px;
+    right: 6px;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+.navbar li a:hover {
+    color: gold;
+}
+
+
+.welcome-page {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.welcome-content {
+    max-width: 700px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.welcome-content h2 {
+    color: white;
+    font-size: 85px;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.welcome-content p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: #d89910;
+    
+}
+
+.welcome-content .explore{
+    width: 40%;
+    height: 50px;
+    background-color: coral;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    transform: .5s;
+}
+.welcome-content .explore a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.welcome-content .explore a:hover{
+    color: #d89910;
+    transform: .5s;
+}
+.welcome-content .explore:hover {
+    background: white;
+    color: orange;
+    transform: .5s;
+}
+.marq-content{
+    background: rgb(14, 3, 46);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marq-content marquee p {
+    display: inline-block;
+    margin: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.contact {
+    padding: 10px 10%;
+    background: #132529;
+    
+    
+}
+
+.contact h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: tan;
+    text-align: center;
+}
+
+.contact-details {
+    padding: 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-details li {
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    line-height: 60px;
+}
+.contact-details li::marker{
+    content: '📲';
+}
+.contact-details li a {
+    text-decoration: none;
+    color: #d89910;
+}
+.socials {
+    width: 50px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socials p {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.socials p:hover {
+    transform: scaleX(1.1);
+}
+
+.socials p i {
+    font-size: 30px;
+    color: orange;
+}
+
+
+
+
+
+
